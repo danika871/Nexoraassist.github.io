@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Buddy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    .section-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Budget Buddy</h1>
+  <p>Your personal assistant for budgeting and planning</p>
+</header>
+
+<nav>
+  <a href="#calendar">Calendar</a>
+  <a href="#budget">Budget Templates</a>
+  <a href="#planning">Planning Tools</a>
+</nav>
+
+<section id="calendar">
+  <div class="section-title">📅 Calendar</div>
+  <p>This will be where your interactive planning calendar lives.</p>
+</section>
+
+<section id="budget">
+  <div class="section-title">💰 Budget Templates</div>
+  <p>Here you'll provide budgeting worksheets or input forms.</p>
+</section>
+
+<section id="planning">
+  <div class="section-title">📝 Planning Tools</div>
+  <p>Custom checklists, reminders, and goal trackers will go here.</p>
+</section>
+
+<footer>
+  <p>© 2025 Budget Buddy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
